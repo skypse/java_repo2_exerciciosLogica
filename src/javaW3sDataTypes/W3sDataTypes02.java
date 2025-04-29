@@ -52,5 +52,33 @@ public class W3sDataTypes02 {
         double d1 = 12E4d;
         System.out.println(f1);
         System.out.println(d1);
+
+        /*Tipos Booleanos:
+        * Bastante comum quando você precisa de dados que somente pode ser dois valores, exemplo:
+        * - YES / NO
+        * - ON / OFF
+        * - TRUE / FALSE
+        * Para o java só pode conter os valores TRUE OR FALSE*/
+        boolean isJavaFun = false;
+        boolean isPizzaTasty = false;
+        System.out.println(isJavaFun);     // Outputs false
+        System.out.println(isPizzaTasty);   // Outputs true
+
+        /*Tipo char:
+        * É utilizado para armazenar um character somente, precisa estar em volta de aspas simples 'A' or 'c'*/
+        char myChar = 'A';
+        System.out.println(myChar);
+        // Há uma alternativa que você pode utilizar os valores ASCII values para mostrar os caracteres
+        char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+        /*Tipo de strings:
+        * É utilizado para armazenar uma sequência de caracteres (text), os valores precisam estar em volta de "EXEMPLO"*/
+        String greeting = "Hello World!";
+        System.out.println(greeting);
+
+        /*O tipo string é bastante utilizado no java e integrado em java que pode ser chamado de "nono tipo especial"
+        * Uma string em java é, na verdade, um tipo de dados não primitivo, porque se refere a um objeto.*/
     }
 }
