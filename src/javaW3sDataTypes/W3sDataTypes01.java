@@ -1,6 +1,6 @@
 package javaW3sDataTypes;
 
-public class W3sDataTypes {
+public class W3sDataTypes01 {
     public static void main(String[] args) {
         /*
         * — > Java Data Types:
