@@ -1,6 +1,6 @@
 package javaW3sFor;
 
-public class W3sForEach02 {
+public class W3sFor03 {
     public static void main(String[] args) {
         // Exemplo 01:
         // Contando até 100!
