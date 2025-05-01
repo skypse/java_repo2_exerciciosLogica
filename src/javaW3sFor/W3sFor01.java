@@ -10,5 +10,9 @@ public class W3sFor01 {
         for (int i = 0; i < 10; i++) {
             System.out.println("i = " + i);
         }
+
+        for (int a = 0; a <= 10; a = a + 2) {
+            System.out.println(a);
+        }
     }
 }
