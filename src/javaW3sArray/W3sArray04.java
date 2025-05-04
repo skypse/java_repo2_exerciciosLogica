@@ -18,6 +18,7 @@ public class W3sArray04 {
                 System.out.println(myNumbers[i][j]);
             }
         }
+
         // loop multidimensional for-each
         for (int[] test : myNumbers){
             for (int i : test){
